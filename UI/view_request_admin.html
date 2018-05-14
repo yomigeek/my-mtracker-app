@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>M-Tracker - Admin View Request</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/pages.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+    <body>
+        <div class="topnav">
+            <br />
+            <p>M-Tracker</p>
+            
+            <a href="admin_login.html">Logout</a>
+            <a href="#">Profile</a>
+            <a href="admin_dashboard.html">Home</a>
+            <a href="#"><i class="material-icons notify-icon">mms</i><b class="notify-count">2</b></a>
+
+        </div>
+        <br />
+        <br />
+
+        <h4 align="center"><img src="./assets/images/details.png" width="40px" height="40px"/> 
+          <br />
+           Request Details
+        </h4>
+        <br />
+        <p align="center" class="form-footer">
+                
+                <a href="admin_dashboard.html" class="formLinkColor">...Back to Request Logs...</a>
+           
+         </p>
+         <br />
+         <div id="container">
+          
+          <div class="approve-category-panel"> 
+            Request Approved! Check pending request to resolve.
+          </div>
+          <div class="decline-category-panel"> 
+              Request Declined! Requester will be notified shortly.
+            </div>
+          <br />
+ 
+          <div class="details-container" id="request-details-box">
+              
+              <p class="categoryPanelHeader">
+                <b>
+                  ID:
+                </b>
+                23456
+              </p>
+              <p class="categoryPanelHeader">
+                <b>
+                  Requester Name:
+                </b>
+                Yomi Olaoye
+              </p>
+              <p class="categoryPanelHeader">
+                  <b>
+                    Title:
+                  </b>
+                  Repair the office AC
+                </p>
+              <p class="categoryPanelHeader">
+                <b>
+                  Description:
+                </b>
+                Reapair system Operating system
+              </p>
+              <p class="categoryPanelHeader">
+                <b>
+                  Priority:
+                </b>
+                High
+              </p>
+            
+              <br />
+              <br />
+              <div align="center">
+                  <button class="approve-button" id="submit" onclick="approvePanelShow() ">Approve</button>
+                  <button class="decline-button" id="submit" onclick="declinePanelShow() ">Decline</button>
+              </div>
+            </div>
+         
+          <br />
+         
+      
+      </div>
+
+        <br />
+        <br />
+        <p class="footer">© 2018. M-tracker.</p>
+               
+        <br />
+        <br />
+
+        
+        <script src="./assets/js/script.js">
+            
+        </script>
+
+    </body>
+</html>
