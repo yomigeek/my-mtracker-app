@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>M-Tracker - DashBoard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/dashboard.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+    <body>
+        <div class="topnav">
+            <br />
+            <p>M-Tracker</p>
+            
+          
+            <a href="admin_login.html">Logout</a>
+            <a href="#">Profile</a>
+            <a href="admin_dashboard.html">Home</a>
+            <a href="#"><i class="material-icons notify-icon">mms</i><b class="notify-count">2</b></a>
+
+        </div>
+        <p align="center">
+            <h4 align="center">Admin Dashboard</h4>
+            <p align="center">
+                    <img src="./assets/images/profile_photo.png" class="profile-photo" align="center"/>
+            </p>
+            <h5 class="welcome-msg" >Welcome Admin,</h5>
+        </p>
+        <h4 align="center"><img src="./assets/images/log-icon.png" width="20px" height="20px"/> Declined Requests</h4>
+        <br />
+        <p align="center" class="form-footer">
+                
+                Also view: <a href="admin_dashboard.html" class="formLinkColor">.. 1. New Requests...</a>
+                <a href="admin_resolved_dashboard.html" class="formLinkColor">..2. Resolved Requests...</a>
+                <a href="admin_pending_dashboard.html" class="formLinkColor">..3. Pending Requests...</a>
+           
+         </p>
+    
+
+        <table>
+                <thead>
+                  <tr>
+                    <th>S/N</th>
+                    <th>Requester</th>
+                    <th>Request ID</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Priority</th>
+                    <th>Action</th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-column="S/N">1</td>
+                    <td data-column="Requester">Matman</td>
+                    <td data-column="Requester ID">2356</td>
+                    <td data-column="Title">System repair</td>
+                    <td data-column="Description">The matman request</td>
+                    <td data-column="Priority">High</td>
+                    <td data-column="Action"> <b>CANCELLED!</b></td>
+
+                  </tr>
+                 
+                </tbody>
+              </table>
+        
+        <br />
+        <br />
+        <p class="footer">© 2018. M-tracker.</p>
+               
+        <br />
+        <br />
+
+        
+        <script>
+            
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>M-Tracker - DashBoard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/pages.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+    <body>
+        <div class="topnav">
+            <br />
+            <p>M-Tracker</p>
+            
+           
+            <a href="login.html">Logout</a>
+            <a href="#">Profile</a>
+            <a href="user_dashboard.html">Home</a>
+            <a href="#"><i class="material-icons notify-icon">mms</i><b class="notify-count">2</b></a>
+
+
+        </div>
+        <br />
+        <br />
+
+        <h4 align="center"><img src="./assets/images/details.png" width="40px" height="40px"/> 
+          <br />
+           Edit Request Details
+        </h4>
+        <br />
+        <p align="center" class="form-footer">
+                
+                <a href="user_dashboard.html" class="formLinkColor">...Back to Request Logs...</a>
+           
+         </p>
+         <br />
+         <div id="container">
+          
+          <div class="approve-category-panel"> 
+            Request Edit Succesfull!
+          </div>
+          <div class="decline-category-panel"> 
+              Request edit failed!
+            </div>
+          <br />
+ 
+        <div class="details-container" id="request-details-box">
+              
+            <form action="#" id="merchantForm">
+                <h5>ID: 2356</h5>
+                <h5>Title</h5>
+                <input type="text" value="Lift repair" id="text" required/>
+                <br />
+                <h5>Description</h5>
+                <textarea rows="5">Please repair</textarea> 
+                <br />
+                <h5>Prority</h5>
+                <select name="request_type">
+                  <option value="1">Low</option>
+                  <option value="2">Mediium</option>
+                  <option value="3">High</option>
+                </select>
+                <br />
+                
+            </form>
+            <div align="center">
+                <button class="submitButton" id="submit" onclick="updateRequest()">Update Request</button>
+            </div>
+      
+        </div>
+
+        <br />
+        <br />
+        <p class="footer">© 2018. M-tracker.</p>
+               
+        <br />
+        <br />
+
+        
+        <script src="./assets/js/script.js">
+            
+        </script>
+
+    </body>
+</html>
