@@ -1,5 +1,5 @@
 import express from 'express';
-import UserRequestController from '../controllers/UserRequestController';
+import UserRequestController from '../controllers/userRequestController';
 import Validation from '../validations/validator';
 
 const appRoutes = express.Router();
